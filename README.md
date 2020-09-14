@@ -1,6 +1,6 @@
 # Game score extraction
 
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/job_classifier/blob/master/LICENSE.txt)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/ml_job_classifier/blob/master/LICENSE.txt)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-378/)
 [![SpaCy 2.3.0](https://img.shields.io/badge/spacy-2.3.0-blue)](https://spacy.io/)
 [![scikit-learn 0.23.2](https://img.shields.io/badge/scikit_learn-0.23.2-blue)](https://scikit-learn.org/stable/)
