@@ -8,13 +8,40 @@
 
 ## Description
 
-This is an example of text classification on job description dataset.
+This is an example of text classification on job description dataset, using different classifiers with tuning techniques.
 
 For solving this problem we follow the next steps:
 * Exploratory data analysis
 * Data preprocessing
 * Modeling
 * Show job position based on description
+
+The classifier is built on [dataset](https://www.kaggle.com/bman93/dataset), which contains > 70k job descriptions belong to 30 job positions.
+
+Example contains training 4 different classifiers with comparing results on validation dataset:
+
+| Classifier | Accuracy |
+|---|---|
+| Naive Bayes classifier | 0.87 |
+| LogisticRegression | 0.94 |
+| DecisionTreeClassifier | 0.93 |
+| LinearSVC classifier | 0.95 |
+
+
+**Example**  
+*Input text (job description)*:    
+
+Our client is a leading innovator in manufacturing thousands of products that affect the lives of millions of people every day; and a strategic player in the Home Health, Personal Care, Electronics, Industrial and Transportation Markets. Specifics:
+- Prepare support for and record required journal entries related to general ledger accounts
+- Prepare monthly account reconciliations
+- Support and actively participate in department initiatives
+- Assist with Ad-hoc analysis and projects  
+
+*Output (job position)*:  
+
+Staff Accountant
+
+
 
 ## Installation
 
