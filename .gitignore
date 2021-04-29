@@ -1,0 +1,6 @@
+venv/
+dataset/*
+models/*
+!.keep
+.idea/
+.ipynb_checkpoints/
